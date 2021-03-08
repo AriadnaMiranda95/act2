@@ -12,7 +12,7 @@ package edu.daniellorenzo.act2;
 public class Calculadora {
        private int operador1;
        private int operador2;
-       private int operacion;
+       private int operador;
 
     /**
      * @return the operador1
@@ -43,16 +43,16 @@ public class Calculadora {
     }
 
     /**
-     * @return the operacion
+     * @return the operador
      */
-    public int getOperacion() {
-        return operacion;
+    public int getOperador() {
+        return operador;
     }
 
     /**
-     * @param operacion the operacion to set
+     * @param operador the operador to set
      */
-    public void setOperacion(int operacion) {
-        this.operacion = operacion;
+    public void setOperador(int operador) {
+        this.operador = operador;
     }
 }
